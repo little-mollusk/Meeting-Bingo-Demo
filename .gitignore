@@ -1,0 +1,29 @@
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.*.local
+
+# Varlock schema is SAFE to commit (no secrets, just structure)
+# .env.schema - commit this file
+
+# Dependencies
+node_modules/
+
+# Build output (Vercel builds fresh)
+dist/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Flow local data
+.claude-flow/
+.claude/
+.mcp.json
+.vercel
