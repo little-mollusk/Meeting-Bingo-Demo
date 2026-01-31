@@ -9,10 +9,10 @@ interface Props {
 export function CategorySelect({ onSelect, onBack }: Props) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8 bg-gradient-to-br from-cyan-500 via-blue-500 to-indigo-600 relative overflow-hidden">
-      {/* Floating background */}
+      {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-16 right-16 text-6xl animate-bounce opacity-20">📚</div>
-        <div className="absolute bottom-24 left-16 text-5xl animate-pulse opacity-20">💡</div>
+        <div className="absolute top-16 right-16 text-6xl opacity-20">📚</div>
+        <div className="absolute bottom-24 left-16 text-5xl opacity-20">💡</div>
       </div>
 
       <div className="relative z-10 w-full max-w-2xl">

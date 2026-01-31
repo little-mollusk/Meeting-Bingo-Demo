@@ -5,12 +5,12 @@ interface Props {
 export function LandingPage({ onStart }: Props) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8 bg-gradient-to-br from-violet-500 via-purple-500 to-fuchsia-500 relative overflow-hidden">
-      {/* Floating background elements */}
+      {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 left-10 text-6xl animate-bounce opacity-20">🎯</div>
-        <div className="absolute top-40 right-20 text-5xl animate-pulse opacity-20">✨</div>
-        <div className="absolute bottom-32 left-20 text-7xl animate-bounce opacity-20" style={{ animationDelay: '0.5s' }}>🎲</div>
-        <div className="absolute bottom-20 right-10 text-5xl animate-pulse opacity-20" style={{ animationDelay: '0.3s' }}>🏆</div>
+        <div className="absolute top-20 left-10 text-6xl opacity-20">🎯</div>
+        <div className="absolute top-40 right-20 text-5xl opacity-20">✨</div>
+        <div className="absolute bottom-32 left-20 text-7xl opacity-20">🎲</div>
+        <div className="absolute bottom-20 right-10 text-5xl opacity-20">🏆</div>
       </div>
 
       {/* Glass card */}

@@ -56,14 +56,14 @@ export function WinScreen({ game, onPlayAgain, onHome, onShare }: Props) {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-8 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 relative overflow-hidden">
-      {/* Floating celebration elements */}
+      {/* Celebration decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-10 left-10 text-6xl animate-bounce">🎉</div>
-        <div className="absolute top-20 right-16 text-5xl animate-pulse">🏆</div>
-        <div className="absolute bottom-32 left-16 text-6xl animate-bounce" style={{ animationDelay: '0.3s' }}>🥳</div>
-        <div className="absolute bottom-20 right-20 text-5xl animate-pulse" style={{ animationDelay: '0.5s' }}>⭐</div>
-        <div className="absolute top-1/3 left-1/4 text-4xl animate-bounce" style={{ animationDelay: '0.2s' }}>🎊</div>
-        <div className="absolute top-1/2 right-1/4 text-4xl animate-pulse" style={{ animationDelay: '0.4s' }}>💫</div>
+        <div className="absolute top-10 left-10 text-6xl">🎉</div>
+        <div className="absolute top-20 right-16 text-5xl">🏆</div>
+        <div className="absolute bottom-32 left-16 text-6xl">🥳</div>
+        <div className="absolute bottom-20 right-20 text-5xl">⭐</div>
+        <div className="absolute top-1/3 left-1/4 text-4xl">🎊</div>
+        <div className="absolute top-1/2 right-1/4 text-4xl">💫</div>
       </div>
 
       {/* Main content */}
