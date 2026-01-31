@@ -1,0 +1,15 @@
+# Gitleaks ignore file
+# Add false positives here (format: commit:file:rule)
+
+# Example: ignore a specific finding
+# abc123def456:path/to/file.ts:generic-api-key
+
+# Ignore test fixtures and mock data
+**/test/**
+**/tests/**
+**/__tests__/**
+**/*.test.ts
+**/*.spec.ts
+
+# Ignore documentation examples
+**/docs/**/*.md
