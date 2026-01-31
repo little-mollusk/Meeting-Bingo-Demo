@@ -25,11 +25,11 @@ export function GameBoard({
 
   return (
     <div className="min-h-screen p-4 bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 relative overflow-hidden">
-      {/* Animated background */}
+      {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-30">
-        <div className="absolute top-10 left-10 text-4xl animate-bounce">🎯</div>
-        <div className="absolute top-20 right-20 text-3xl animate-pulse">✨</div>
-        <div className="absolute bottom-40 left-20 text-4xl animate-bounce" style={{ animationDelay: '0.5s' }}>🎲</div>
+        <div className="absolute top-10 left-10 text-4xl">🎯</div>
+        <div className="absolute top-20 right-20 text-3xl">✨</div>
+        <div className="absolute bottom-40 left-20 text-4xl">🎲</div>
       </div>
 
       <div className="max-w-lg mx-auto relative z-10">
